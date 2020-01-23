@@ -1,12 +1,15 @@
 ﻿using System;
 
-namespace exercise_03
+namespace exercise_04
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Once upon a time\nI was falling in love\nNow I'm only falling apart");
+            string message = "Passport and floss!";
+           
+           string message = "Passport and a toothbrush!"
+            Console.WriteLine(message);
         }
     }
 }
