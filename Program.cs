@@ -1,14 +1,22 @@
 ﻿using System;
 
-namespace exercise_07
+namespace exercise_08
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Give input!");
+            // Write your code here:
+            Console.Write("What is your name? ");
             string message = Console.ReadLine();
-        Console.WriteLine("\nAre you printing the string?" + "\nAre you printing the string?" + "\nAre you printing the string?");
-}
+            string name = "Ada "; 
+            string greeting = "Hello ";
+            Console.WriteLine(greeting + name + "!");
+
+            
+            
+            
+
+        }
     }
 }
