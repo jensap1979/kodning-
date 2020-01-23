@@ -1,22 +1,22 @@
 ﻿using System;
 
-namespace exercise_08
+namespace exercise_09
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            // Write your code here:
-            Console.Write("What is your name? ");
-            string message = Console.ReadLine();
-            string name = "Ada "; 
-            string greeting = "Hello ";
-            Console.WriteLine(greeting + name + "!");
+            Console.WriteLine("Hello, how are you?");
+            string input = Console.ReadLine();
+            Console.WriteLine("That's interesting, tell me more");
+            string input_a = Console.ReadLine();
+            Console.WriteLine("Thank you for sharing!");
+            
+        }    
+         
+        
+            
+           
 
-            
-            
-            
-
-        }
     }
 }
