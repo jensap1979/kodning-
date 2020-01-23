@@ -1,15 +1,14 @@
 ﻿using System;
 
-namespace exercise_06
+namespace exercise_07
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Give good input!");
-             string message = Console.ReadLine();
-              Console.WriteLine("No need to stress" + message);
-            
-        }
+            Console.WriteLine("Give input!");
+            string message = Console.ReadLine();
+        Console.WriteLine("\nAre you printing the string?" + "\nAre you printing the string?" + "\nAre you printing the string?");
+}
     }
 }
