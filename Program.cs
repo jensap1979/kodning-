@@ -1,15 +1,15 @@
 ﻿using System;
 
-namespace exercise_04
+namespace exercise_05
 {
     class Program
     {
         public static void Main(string[] args)
         {
-            string message = "Passport and floss!";
-           
-           string message = "Passport and a toothbrush!"
-            Console.WriteLine(message);
+            string name = "Ada LoveLace";
+            string greeting = "Hello ";
+            Console.WriteLine(greeting + name + "!");
+            
         }
     }
 }
